@@ -17,7 +17,8 @@ A powerful, multi-threaded Open Source Intelligence (OSINT) tool written in Pyth
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/YOUR_USERNAME/CyberCop.git](https://github.com/YOUR_USERNAME/CyberCop.git)
+git clone [https://github.com/aviipareek/CYBERCOP_OSINT]
 cd CyberCop
-
-Requirements - Telegram Developer API_ID API_HASH (Add in CYBERCOP_OSINT.py Line no. 145-146)
+pip3 install requirements.txt --break-system-packages
+Add Telegram API ID & HASH (Add in CYBERCOP_OSINT.py Line no. 145-146)
+python3 CYBERCOP_OSINT.py phonenumber #without country code
