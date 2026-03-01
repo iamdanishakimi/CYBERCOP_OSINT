@@ -194,8 +194,8 @@ def get_human_readable_user_status(status):
     return "Unknown"
 
 async def _telegram_logic(number):
-    api_id = 32076729
-    api_hash = "9c6cebfae536b8c97e12cb90b0537187"
+    api_id = "YOUR API KEY"
+    api_hash = "HASHED KEY"
     session_name = "cybercop_session" 
     client = TelegramClient(session_name, api_id, api_hash)
     
@@ -459,3 +459,4 @@ if __name__ == "__main__":
             print(f" {B}[+]{W} {key:<15}: {final_dict[key]}")
 
     print(f"{B}{C}" + "="*55 + f"{W}\n")
+
